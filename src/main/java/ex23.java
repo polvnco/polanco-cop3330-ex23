@@ -18,7 +18,7 @@ public class ex23 {
                 System.out.println("Replace cables and try again.");
             }
         } else {
-            System.out.println("Does the car make a clicking noise?");
+            System.out.println("Does the car make a slicking noise?");
             Scanner an3 = new Scanner(System.in);
             if (an3.nextLine().toLowerCase().startsWith("y")) {
                 System.out.println("Replace the battery.");
@@ -38,6 +38,8 @@ public class ex23 {
                         } else {
                             System.out.println("Check to ensure the choke is opening and closing.");
                         }
+                    } else {
+                        System.out.println("This should not be possible.");
                     }
                 }
             }
